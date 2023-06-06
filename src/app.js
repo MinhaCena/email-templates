@@ -45,10 +45,9 @@ const configEmail = {
   from: 'email@gmail.com',
   to: 'email2@gmail.com',
   subject: 'Templates de email MinhaCena',
-  template: 'email',
+  template: 'generic-email', /* illustrator-approved | illustrator-disapproved | institution-approved | institution-disapproved */
   context: {
-    name: 'João Ilustrador',
-    isIllustrator: true
+    name: 'Nome',
   }
 }
 

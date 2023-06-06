@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Aprovado - MinhaCena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+  <style "text/css">
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: "Mulish",  sans-serif;
+      box-sizing: border-box;
+      background: #F8F8F8;
+    }
+    table{
+      border-spacing: 0;
+    }
+    td{
+      padding: 0;
+    }
+    img{
+      border: 0;
+    }
+    .wrapper{
+      width: 100%;
+      table-layout: fixed;
+    }
+    .main{
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      border-spacing: 0;
+      font-family: 'Mulish', sans-serif;
+      color: #000;
+
+    }
+    .institution{
+      background-color: #6637F6;
+    }
+    .container{
+      padding: 0 24px;
+    }
+    @media(min-width: 768px){
+      .container{
+        padding: 0 16px 0 64px;
+      }
+
+      .content{
+      padding: 0 64px;
+    }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <table class="main" width="100%">
+      <!--Header-->
+      <tr>
+        <td class="container institution" height="72" style="padding-top: 16px; padding-bottom: 16px;">
+          <table width="100%">
+            <tr>
+              <td>
+                <a href="minhacena.org">
+                  <img src="https://raw.githubusercontent.com/MinhaCena/email-templates/main/src/templates/assets/minhacena.png" alt="logo do MinhaCena" >
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+     <!--Content-->
+      <tr>
+        <td class="container content">
+          <table width="100%"" style=" font-size: 16px; padding-top: 64px; padding-bottom: 64px;">
+            <tr>
+              <td style="padding: 16px 0;">
+                Olá <strong>{{name}}</strong>.Tudo bem?
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 16px 0;">
+                Tudo certo com o cadastro!
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 16px 0; line-height: 24px;">
+                Em breve você receberá um login e senha para acessar a plataforma, enquanto isso, acompanhe nossas comunicações através das nossas redes sociais.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 16x 0;">
+                Muito obrigado!
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+     <!--Footer-->
+      <tr>
+        <td height="142" class="container institution">
+          <table width="100%">
+            <tr>
+              <td style="color: #F8F8F8; font-weight: 500; font-size: 16px;">
+                &copy; <a style="color: #F8F8F8; text-decoration: none;" href="minhacena.org">MinhaCena.org</a>
+              </td>
+              <td>
+                <a href="https://www.instagram.com/projetominhacena/">
+                  <img 
+                    src="https://raw.githubusercontent.com/MinhaCena/email-templates/main/src/templates/assets/instagram.png" 
+                    alt="Instagram do MinhaCena"  title="Instagram do MinhaCena">
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/company/minhacena-org/"> 
+                  <img src="https://raw.githubusercontent.com/MinhaCena/email-templates/main/src/templates/assets/linkedin.png" 
+                  width="32" alt="Linkedin do MinhaCena" title="Linkedin do MinhaCena">
+                </a>
+              </td>
+            </tr>
+          </table>       
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
