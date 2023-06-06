@@ -33,14 +33,6 @@ const handlebarOptions = {
 
 smtp.use('compile', hbs(handlebarOptions))
 
-handlebars.registerHelper('isIllustrator', function (variable) {
-  if ( variable === true) {
-    return true
-  } else {
-    return false
-  }
-});
-
 const configEmail = {
   from: 'email@gmail.com',
   to: 'email2@gmail.com',
